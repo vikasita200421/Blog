@@ -1,0 +1,21 @@
+// components/BlogPost.js
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import marked from 'marked';
+
+function BlogPost() {
+  const { id } = useParams();
+  const blog = { id: 1, title: 'React Basics', content: 'We have created the blog app using react js, First of all, we have created the project name blog by entering the command npx create-react-app blog and installing all modules. Then we create the folder name component under src and make two jsx file post.jsx and posts.jsx and styling the jsx component by post.css and posts.css. And last we import the component into App.js and styling the main into App.css.Use keyword research When it comes to choosing the right keywords to boost your SEO, learning how to do keyword research is vital. When you have a strong list of keywords to include in your writing, your blog can do more work for your IT business. To start gathering your collection of perfect keywords, use Google Keyword Planner. This powerful tool provides important data about relevant keywords and helps you generate new keywords. To maximize the fruits of your keyword research, use an SEO tool to monitor your success. React is a framework that employs Webpack to automatically compile React, JSX, and ES6 code while handling CSS file prefixes. React is a JavaScript-based UI development library. Although React is a library rather than a language, it is widely used in web development. The library first appeared in May 2013 and is now one of the most commonly used frontend libraries for web development. React offers various extensions for entire application architectural support, such as Flux and React Native, beyond mere UI. When compared to other technologies on the market, React is a new technology. Jordan Walke, a software engineer at Facebook, founded the library in 2011, giving it life. The likes of XHP, a straightforward HTML component framework for PHP, have an influence on React. Reacts newsfeed was its debut application in 2011. Later, Instagram picks it up and incorporates it into their platform. Reacts popularity today has eclipsed that of all other front-end development frameworks. Here is why: Easy creation of dynamic applications: React makes it easier to create dynamic web applications because it requires less coding and offers more functionality, as opposed to JavaScript, where coding often gets complex very quickly. Improved performance: React uses Virtual DOM, thereby creating web applications faster. Virtual DOM compares the componentsprevious states and updates only the items in the Real DOM that were changed, instead of updating all of the components again, as conventional web applications do. Reusable components: Components are the building blocks of any React application, and a single app usually consists of multiple components. These components have their logic and controls, and they can be reused throughout the application, which in turn dramatically reduces the applications development time.Unidirectional data flow: React follows a unidirectional data flow. This means that when designing a React app, developers often nest child components within parent components. Since the data flows in a single direction, it becomes easier to debug errors and know where a problem occurs in an application at the moment in question. Small learning curve: React is easy to learn, as it mostly combines basic HTML and JavaScript concepts with some beneficial additions. Still, as is the case with other tools and frameworks, you have to spend some time to get a proper understanding of Reacts library.It can be used for the development of both web and mobile apps: We already know that React is used for the development of web applications, but thats not all it can do. There is a framework called React Native, derived from React itself, that is hugely popular and is used for creating beautiful mobile applications. So, in reality, React can be used for making both web and mobile applications. Dedicated tools for easy debugging:' };
+
+
+  // Fetch blog content from an API or other source based on the id
+                       
+  return (
+    <div>
+      <h1>{blog.title}</h1>
+      <div>{ blog.content }</div>
+    </div>
+  );
+}
+
+export default BlogPost;

@@ -1,0 +1,27 @@
+.hey{
+  text-align: center;
+}
+.body {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: bisque;
+
+}
+
+.container {
+  max-width: 800px;
+  margin: 100px;
+
+  background-color: bisque;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-right: 100px;
+
+
+/* Add more styling for your overall app layout */
+
+}
+
+/* Add more styling as needed */

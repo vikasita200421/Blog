@@ -1,0 +1,35 @@
+/* components/BlogPost.css */
+h1 {
+    color: black;
+    background-color: aqua;
+    text-align: center;
+  }
+  
+  /* Style your blog content as needed */
+  /* post.css */
+
+/* Style for the container div */
+div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: aqua;
+  text-align: center;
+}
+
+/* Style for the blog title */
+h1 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style for the blog content */
+div > div {
+  line-height: 1.6;
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Add more styles as needed */
